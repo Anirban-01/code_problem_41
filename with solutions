@@ -1,0 +1,6 @@
+# Write a Python program to swap comma and dot in a string.
+
+sample_string1 = "32.054,23"
+maketransfer = sample_string1.maketrans
+transfer = sample_string1.translate(maketransfer(',.', '.,'))
+print(transfer)
